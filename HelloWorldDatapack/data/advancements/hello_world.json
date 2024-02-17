@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "punched_dirt": {
+        "trigger": "minecraft:player_interacted_with_block",
+        "conditions": {
+          "block": "minecraft:dirt",
+          "state": {
+            "punch_count": 1
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "hello_world:say_hello"
+    }
+  }
+  
